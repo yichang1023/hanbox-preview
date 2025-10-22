@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import '../styles/globals.css'
+//import '../styles/globals.css'
 
 function downloadText(filename, text) {
   const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
